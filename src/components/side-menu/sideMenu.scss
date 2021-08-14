@@ -1,0 +1,30 @@
+.side-menu-container{
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        li{
+            padding: 1rem;
+            border-bottom: 1px solid gray;
+            background: transparet;
+            border-radius: 3px;
+            cursor: pointer;
+            position: relative;
+            
+            
+            a{
+                color: rgba(255,255,255,0.5);
+                text-decoration: none;
+                
+                &:hover{
+                    text-decoration: underline;
+                    color: rgba(255,255,255,1);
+                }
+                &.selected{
+                    font-weight: 600;
+                    color: white;        
+                }
+            }
+        }
+    }
+}

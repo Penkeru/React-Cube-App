@@ -1,0 +1,29 @@
+  .inputText {
+    width: 50%;
+    height: 30px;
+    padding: 12px 20px 10px 10px;
+    margin: 8px 0 10px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .selectBox{
+    width: 50%;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 8px 0 10px 10px;
+  }
+
+  .genderContainer {
+    width: 100%;
+  }
+  .genderText {
+    vertical-align: middle;
+  }
+  .radioContainer {
+      margin-top: 10px;
+  }
