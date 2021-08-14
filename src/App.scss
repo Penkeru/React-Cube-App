@@ -4,6 +4,7 @@
   color: white;
   display:grid;
   grid-template-rows: 80px auto;
+  overflow: hidden;
 
   .app-header{
     display: grid;
@@ -36,6 +37,9 @@
     
     .app-menu-routes-content{
       padding-top: 20px;
+      overflow: hidden;
+      height: 100%;
+      width: 100%;
     }
   }
 }

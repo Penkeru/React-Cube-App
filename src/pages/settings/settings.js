@@ -12,12 +12,11 @@ export default function Settings() {
     const settingsForm = FormBuilder.group({
         width: (boxSettings && boxSettings.width) || "",
         height: (boxSettings && boxSettings.height) || "",
-        color: (boxSettings && boxSettings.color && boxSettings.color.hex) || "#000000",
+        color: (boxSettings && boxSettings.color && boxSettings.color.hex) || "#ffffff",
         rotatingSpeed: (boxSettings && boxSettings.rotatingSpeed) || "12"
     });
 
     const handleSubmit = (e) => {
-        debugger;
         dispatch(updateBoxSettings(settingsForm.value));
         e.preventDefault();
     }
