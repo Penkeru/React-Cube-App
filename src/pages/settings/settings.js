@@ -12,7 +12,7 @@ export default function Settings() {
     const settingsForm = FormBuilder.group({
         width: (boxSettings && boxSettings.width) || "",
         height: (boxSettings && boxSettings.height) || "",
-        color: (boxSettings && boxSettings.color && boxSettings.color.hex) || "#ffffff",
+        color: (boxSettings && boxSettings.color) || "#ffffff",
         rotatingSpeed: (boxSettings && boxSettings.rotatingSpeed) || "12"
     });
 
@@ -50,8 +50,7 @@ export default function Settings() {
                             <FieldControl
                                 name="color"
                                 meta={{
-                                    label: "Box Color",
-                                    value: value.color
+                                    label: "Box Color"
                                 }}
                                 render={ColorPickerInput}
                             />
