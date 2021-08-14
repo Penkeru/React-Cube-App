@@ -1,5 +1,9 @@
+.form-control-container{
+    display: grid;
+    grid-template-columns: 115px 200px;
+    grid-gap: 10px;
+    align-items: center;
   .inputText {
-    width: 50%;
     height: 30px;
     padding: 12px 20px 10px 10px;
     margin: 8px 0 10px 10px;
@@ -10,13 +14,15 @@
   }
 
   .selectBox{
-    width: 50%;
     height: 30px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin: 8px 0 10px 10px;
   }
+}
+
+  
 
   .genderContainer {
     width: 100%;

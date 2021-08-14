@@ -10,9 +10,7 @@ const MainRoutes = () => {
             <Route exact path='/'>
                 <Redirect exact to='/welcome' />
             </Route>
-            <Route path='/welcome'>
-                <Login />
-            </Route>
+            <Route path='/welcome' component={Login}/>
             <Route path='/box' component={Box} />
             <Route path='/settings' component={Settings} />
         </Switch>

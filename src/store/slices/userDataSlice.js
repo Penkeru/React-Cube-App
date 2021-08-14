@@ -16,7 +16,6 @@ export const userDataSlice = createSlice({
     },
 })
 
-// Action creators are generated for each case reducer function
 export const { updateUserData, deleteUserData } = userDataSlice.actions
 
 export default userDataSlice.reducer

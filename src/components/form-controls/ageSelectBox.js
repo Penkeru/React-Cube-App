@@ -2,7 +2,7 @@ import * as React from "react";
 import './styles.scss';
 
 const AgeSelectBox = ({ handler }) => (
-    <div>
+    <div className="form-control-container">
         <label>Age:</label>
         <select className="selectBox" {...handler()}>
             <option value="" disabled>

@@ -1,0 +1,9 @@
+.settings-container{
+    color: white;
+    display: grid;
+    grid-template-rows: 43px auto;
+    grid-row-gap: 15px;
+    .settings-title{
+        font-size: 32px;
+    }
+}

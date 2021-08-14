@@ -38,7 +38,7 @@ export function Login() {
                 {!userData &&
                     <>
                         <div className="form-container">
-                            <div className="form-label">Please fill the form</div>
+                            <div className="form-label">Please fill the form:</div>
                             <FieldGroup
                                 control={userForm}
                                 render={({ pristine, value }) => (
@@ -47,7 +47,8 @@ export function Login() {
                                             name="name"
                                             meta={{
                                                 label: "Name",
-                                                placeholder: "Insert User name"
+                                                placeholder: "Insert User name",
+                                                type: "text"
                                             }}
                                             render={TextInput}
                                         />

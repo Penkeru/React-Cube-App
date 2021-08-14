@@ -4,11 +4,11 @@ import './styles.scss';
 // React SFC to render Input element
 const TextInput = ({
     handler,
-    meta: { label, placeholder }
+    meta: { label, placeholder, type }
 }) => (
-    <div>
+    <div className="form-control-container">
         <label>{label}:</label>
-        <input className="inputText" placeholder={placeholder}  {...handler()} />
+        <input type={type} className="inputText" placeholder={placeholder}  {...handler()} />
     </div>
 );
 
