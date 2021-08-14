@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
 This is my first project using ReactJs with Reactive form and Cube created with Three.js.
 Hopefully I will continue progress with ReactJS and improve my code.
 
